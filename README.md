@@ -17,26 +17,37 @@ This project is about designing an IoT health monitor to track heart rate and Sp
 
 Below is the interfacing diagram for connecting the MAX30100 sensor and an optional OLED display to the VSDSquadron Mini board and the ESP8266 for WiFi communication.
 
-### Components Pin Connections
-- **MAX30100 Sensor:**
-  - **SDA** to GPIO2 (I2C SDA)
-  - **SCL** to GPIO3 (I2C SCL)
-  - **INT** to GPIO4 (Optional for interrupt-based reading)
-  - **VIN** to 3.3V (Power)
-  - **GND** to GND (Ground)
+## Components Pin Connections
 
-- **OLED Display (Optional):**
-  - **SDA** to GPIO2 (I2C SDA)
-  - **SCL** to GPIO3 (I2C SCL)
-  - **VIN** to 3.3V (Power)
-  - **GND** to GND (Ground)
+### MAX30100 Sensor
 
-- **ESP8266 WiFi Module:**
-  - **TX** to GPIO5 (UART RX)
-  - **RX** to GPIO6 (UART TX)
-  - **CH_PD** to 3.3V (Power)
-  - **VCC** to 3.3V (Power)
-  - **GND** to GND (Ground)
+| Pin           | VSDSquadron Mini Board Pin        |
+|---------------|-----------------------------------|
+| SDA           | GPIO2 (I2C SDA)                   |
+| SCL           | GPIO3 (I2C SCL)                   |
+| INT (Optional)| GPIO4 (Optional for interrupt-based reading) |
+| VIN           | 3.3V (Power)                      |
+| GND           | GND (Ground)                      |
+
+### OLED Display (Optional)
+
+| Pin           | VSDSquadron Mini Board Pin        |
+|---------------|-----------------------------------|
+| SDA           | GPIO2 (I2C SDA)                   |
+| SCL           | GPIO3 (I2C SCL)                   |
+| VIN           | 3.3V (Power)                      |
+| GND           | GND (Ground)                      |
+
+### ESP8266 WiFi Module
+
+| Pin           | VSDSquadron Mini Board Pin        |
+|---------------|-----------------------------------|
+| TX            | GPIO5 (UART RX)                   |
+| RX            | GPIO6 (UART TX)                   |
+| CH_PD         | 3.3V (Power)                      |
+| VCC           | 3.3V (Power)                      |
+| GND           | GND (Ground)                      |
+
 
 ### Interfacing Diagram
 ```plaintext
