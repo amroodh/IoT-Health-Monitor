@@ -16,9 +16,6 @@ This project focuses on developing an IoT-based health monitor to track heart ra
 5. **Power Supply**: Battery or USB power source
 6. **Connecting Wires**
 
-## Interfacing Diagram
-
-Below is the interfacing diagram for connecting the MAX30100 sensor and an optional OLED display to the VSDSquadron Mini board and the ESP8266 for WiFi communication.
 
 ## Components Pin Connections
 
