@@ -50,32 +50,6 @@ Below is the interfacing diagram for connecting the MAX30100 sensor and an optio
 
 
 ### Interfacing Diagram
-```plaintext
-            +------------------------+
-            | VSDSquadron Mini Board |
-            |                        |
-            | 3.3V ----------------+ |
-            | GND ---------------+ | |
-            |                    | | |
-            | GPIO2 (I2C SDA) ---|-|-|----> MAX30100 SDA
-            | GPIO3 (I2C SCL) ---|-|-|----> MAX30100 SCL
-            | GPIO4 (INT) -------|-|-|----> MAX30100 INT (Optional)
-            |                    | | |
-            | GPIO5 (UART RX) ---|-|-|----> ESP8266 TX
-            | GPIO6 (UART TX) ---|-|-|----> ESP8266 RX
-            |                    | | |
-            +------------------------+
-                     |  |
-                     |  |
-           +---------+  +-------------+
-           |                          |
-      +----+----+                +----+----+
-      | MAX30100 |                | ESP8266 |
-      |          |                |         |
-      +---------+                +---------+
-         |  |
-         |  |
-         +--+
+![](circuit_diagram.pptx)
 
-```
 
