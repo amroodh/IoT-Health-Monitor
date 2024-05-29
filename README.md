@@ -52,5 +52,5 @@ Below is the interfacing diagram for connecting the MAX30100 sensor and an optio
 | GND           | GND (Ground)                      |
 
 
-### Interfacing Diagram
+### Circuit Connection Diagram
 ![](circuit_diagram.jpg)
