@@ -2,8 +2,11 @@
 
 
 # IoT Health Monitor
+## Introduction
+The IoT-based health monitor is designed to efficiently track heart rate and SpO2 (blood oxygen saturation) using the VSDSquadron Mini RISC-V development board and the MAX30100 sensor. This system enables continuous monitoring and data transmission through the ESP8266 WiFi module, allowing for remote health tracking via cloud platforms. Optional integration with an OLED display provides local data visualization. This technology offers a scalable and adaptable solution for personal and clinical health monitoring, leveraging advanced sensors and IoT capabilities to deliver real-time insights and long-term health data analysis
 
-This project is about designing an IoT health monitor to track heart rate and SpO2 (blood oxygen saturation) using the VSDSquadron Mini RISC-V development board. It involves interfacing suitable sensors with the board and ensuring data can be processed and transmitted effectively.
+## Overview
+This project focuses on developing an IoT-based health monitor to track heart rate and SpO2 (blood oxygen saturation). Utilizing the VSDSquadron Mini RISC-V development board and the MAX30100 sensor, the system is designed to provide continuous monitoring of vital signs. The integration with an ESP8266 WiFi module enables real-time data transmission to cloud platforms like ThingSpeak or AWS IoT, facilitating remote health tracking and long-term data analysis. An optional OLED display allows users to view their health metrics locally. The project involves interfacing the components through I2C and UART connections, ensuring efficient data processing and transmission. The software implementation includes sensor initialization, data acquisition, processing, and communication with the cloud. This scalable and adaptable system is suitable for various applications, from personal health tracking to clinical environments, offering a comprehensive solution for modern healthcare needs.
 
 ## Components Needed
 1. **VSDSquadron Mini RISC-V Development Board**
