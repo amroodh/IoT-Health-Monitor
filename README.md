@@ -50,6 +50,4 @@ Below is the interfacing diagram for connecting the MAX30100 sensor and an optio
 
 
 ### Interfacing Diagram
-![](circuit_diagram.pptx)
-
-
+![](circuit_diagram.jpg)
